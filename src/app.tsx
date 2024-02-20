@@ -1,5 +1,6 @@
 import { Plus } from 'lucide-react'
 import { Header } from './components/header'
+import { Tabs } from './components/tabs'
 
 export function App() {
 
@@ -7,6 +8,7 @@ export function App() {
     <div className="py-10 space-y-8">
       <div>
         <Header />
+        <Tabs />
       </div>
 
       <main className="max-w-6xl mx-auto space-y-5">
