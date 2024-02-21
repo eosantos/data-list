@@ -1,6 +1,7 @@
 import { Plus } from 'lucide-react'
 import { Header } from './components/header'
 import { Tabs } from './components/tabs'
+import { Button } from './components/ui/button'
 
 export function App() {
 
@@ -14,10 +15,10 @@ export function App() {
       <main className="max-w-6xl mx-auto space-y-5">
         <div className="flex items-center gap-3">
           <h1 className="text-xl font-bold">Tags</h1>
-          <button className='primary'>
+          <Button className='primary'>
             <Plus className="size-3" />
             Create new
-          </button>
+          </Button>
         </div>
       </main>
     </div>
