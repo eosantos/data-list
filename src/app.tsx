@@ -13,7 +13,7 @@ export function App() {
       </div>
 
       <main className="max-w-6xl mx-auto space-y-5">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 ms-2 md:ms-4">
           <h1 className="text-xl font-bold">Tags</h1>
           <Button className='primary'>
             <Plus className="size-3" />
