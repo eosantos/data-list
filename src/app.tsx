@@ -4,6 +4,7 @@ import { Tabs } from './components/tabs'
 import { Button } from './components/ui/button'
 import { Control, Input } from './components/ui/input'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from './components/ui/table'
+import { Pagination } from './components/pagination'
 
 
 export function App() {
@@ -48,7 +49,9 @@ export function App() {
             </TableRow>
           </TableHeader>
           <TableBody>
-            <TableRow>
+            {Array.from({ length: 10}).map((value, index) => {
+            return (
+              <TableRow key={index}>
               <TableCell></TableCell>
               <TableCell>
                 <div className="flex flex-col gap-0.5">
@@ -65,8 +68,12 @@ export function App() {
                 </Button>
               </TableCell>
             </TableRow>
+            )
+            })}
           </TableBody>
-        </Table>       
+        </Table>
+
+        <Pagination pages={0} items={0} page={0} />
       </main>
     </div>
   )
