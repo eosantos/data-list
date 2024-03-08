@@ -9,8 +9,8 @@ Lista de Dados com ferramentas frontend.
 <br>
 <hr>
 <div align="center">
-	<img width="140" src="public/assets/Img/to_readme/data-lista_mobile">	
-	<img width="590" src="public/assets/Img/to_readme/data-lista_desktop.png">
+	<img width="140" src="assets/Img/to_readme/data-lista_mobile">	
+	<img width="590" src="assets/Img/to_readme/data-lista_desktop.png">
 </div>
 <hr>
 <br>
@@ -33,13 +33,13 @@ O primeiro passo é clonar o projeto utilizando o método HTTPS ou SSH.
 SSH
 
 ```sh
-git clone
+git clone git@github.com:eosantos/data-list.git
 ```
 
 HTTPS
 
 ```sh
-git clone
+git clone https://github.com/eosantos/data-list.git
 ```
 
 ### Instalar dependências do projeto
