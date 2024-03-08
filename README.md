@@ -1,10 +1,10 @@
 💻 Sobre o projeto
 
-🔔 Projeto para previsão meteorológica
+🔔 Projeto para criação de lista de dados
 
 ## Descrição
 
-Página web que mostre a previsão meteorológica para os próximos 7 dias para a cidade de Varginha - MG.
+Lista de Dados com ferramentas frontend.
 
 <br>
 <hr>
