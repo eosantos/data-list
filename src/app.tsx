@@ -100,7 +100,7 @@ export function App() {
           {isFetching && <Loader2 className="size-4 animate-spin text-zinc-500" />}
         </div>
 
-        <div className="flex items-center justify-between">
+        <div className="flex flex-col items-center justify-between sm:flex-row">
           <form onSubmit={handleFilter} className="flex items-center gap-2">
             <Input variant='filter'>
               <Search className="size-3" />
@@ -116,7 +116,7 @@ export function App() {
             </Button>
           </form>
 
-          <Button>
+          <Button className='m-5'>
             <FileDown className="size-3" />
             Export
           </Button>
