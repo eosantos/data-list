@@ -9,7 +9,7 @@ Lista de Dados com ferramentas frontend.
 <br>
 <hr>
 <div align="center">
-	<img width="140" src="/src/assets/Img/to_readme/data-lista_mobile">	
+	<img width="140" src="/src/assets/Img/to_readme/data-lista_mobile.png">	
 	<img width="590" src="/src/assets/Img/to_readme/data-lista_desktop.png">
 </div>
 <hr>
