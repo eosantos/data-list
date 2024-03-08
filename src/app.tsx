@@ -9,6 +9,7 @@ import { useQuery, keepPreviousData } from '@tanstack/react-query'
 import { useSearchParams } from 'react-router-dom'
 import { FormEvent, useState } from 'react'
 import * as Dialog from '@radix-ui/react-dialog';
+import { CreateTagForm } from './components/create-tag-form'
 
 export interface TagResponse {
   first: number
@@ -91,7 +92,7 @@ export function App() {
                   </Dialog.Description>
                 </div>
 
-                
+                <CreateTagForm />
               </Dialog.Content>
             </Dialog.Portal>
           </Dialog.Root>
